@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="2KD-qk-w4I">
+                                <rect key="frame" x="23" y="180" width="368" height="376"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="376" id="Hck-hO-GZd">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="562"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="368" id="b3W-dm-GeC">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="550"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85882352939999995" green="0.1450980392" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2KD-qk-w4I" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4Rx-Db-uBF"/>
+                            <constraint firstItem="2KD-qk-w4I" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iYT-9C-Cpq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="399.85007496251876"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="1162" height="1052"/>
+    </resources>
+</document>
