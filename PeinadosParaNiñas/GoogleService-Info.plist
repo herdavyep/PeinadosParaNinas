@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>26075848609-qb8u5k8ja34drac818b8f3chmcnn1v85.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.26075848609-qb8u5k8ja34drac818b8f3chmcnn1v85</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAD__MszKn1Ey44aoJsbg87LmwwZzsUN_k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>26075848609</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.heri.PeinadosParaNin-as</string>
+	<key>PROJECT_ID</key>
+	<string>peinados-para-ninas-a6954</string>
+	<key>STORAGE_BUCKET</key>
+	<string>peinados-para-ninas-a6954.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:26075848609:ios:698ddbc07f4eb4ed</string>
+	<key>DATABASE_URL</key>
+	<string>https://peinados-para-ninas-a6954.firebaseio.com</string>
+</dict>
+</plist>
