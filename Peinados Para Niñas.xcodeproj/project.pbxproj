@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1B6C271FF9920D00F64D21 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B6C261FF9920D00F64D21 /* ViewControllerHome.swift */; };
 		0D2E08341FED97A90027491D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E08331FED97A90027491D /* AppDelegate.swift */; };
 		0D2E08361FED97A90027491D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E08351FED97A90027491D /* ViewController.swift */; };
 		0D2E08391FED97A90027491D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2E08371FED97A90027491D /* Main.storyboard */; };
@@ -16,6 +17,14 @@
 		0D2E084C1FED97A90027491D /* PeinadosParaNin_asTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E084B1FED97A90027491D /* PeinadosParaNin_asTests.swift */; };
 		0D2E08571FED97A90027491D /* PeinadosParaNin_asUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E08561FED97A90027491D /* PeinadosParaNin_asUITests.swift */; };
 		0D5860AD1FEF0C2900416EFD /* Peinado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5860AC1FEF0C2900416EFD /* Peinado.swift */; };
+		0D82487B1FFE722200633849 /* CategoriaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82487A1FFE722200633849 /* CategoriaTableViewController.swift */; };
+		0D82487F1FFE758B00633849 /* CategoriasPeinados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82487E1FFE758B00633849 /* CategoriasPeinados.swift */; };
+		0D8248811FFE7C3700633849 /* CategoriasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8248801FFE7C3700633849 /* CategoriasTableViewCell.swift */; };
+		0DA6E05E1FF2F6020071A27F /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6E05D1FF2F6020071A27F /* ViewControllerLogin.swift */; };
+		0DA6E0601FF3584C0071A27F /* Peinados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6E05F1FF3584C0071A27F /* Peinados.swift */; };
+		0DC6EABF1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6EABE1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift */; };
+		0DC9B6791FF2E581002FA593 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9B6781FF2E581002FA593 /* GoogleService-Info.plist */; };
+		32A5BFC5D7CB6F49C0165956 /* Pods_Peinados_Para_Nin_as.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A34BA3881150A385F146C76 /* Pods_Peinados_Para_Nin_as.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1B6C261FF9920D00F64D21 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
 		0D2E08301FED97A90027491D /* Peinados Para Niñas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peinados Para Niñas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2E08331FED97A90027491D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D2E08351FED97A90027491D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +61,16 @@
 		0D2E08561FED97A90027491D /* PeinadosParaNin_asUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeinadosParaNin_asUITests.swift; sourceTree = "<group>"; };
 		0D2E08581FED97A90027491D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D5860AC1FEF0C2900416EFD /* Peinado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peinado.swift; sourceTree = "<group>"; };
+		0D82487A1FFE722200633849 /* CategoriaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaTableViewController.swift; sourceTree = "<group>"; };
+		0D82487E1FFE758B00633849 /* CategoriasPeinados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasPeinados.swift; sourceTree = "<group>"; };
+		0D8248801FFE7C3700633849 /* CategoriasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasTableViewCell.swift; sourceTree = "<group>"; };
+		0DA6E05D1FF2F6020071A27F /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		0DA6E05F1FF3584C0071A27F /* Peinados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peinados.swift; sourceTree = "<group>"; };
+		0DC6EABE1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGaleriaVistaTotal.swift; sourceTree = "<group>"; };
+		0DC9B6781FF2E581002FA593 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A34BA3881150A385F146C76 /* Pods_Peinados_Para_Nin_as.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peinados_Para_Nin_as.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		878AF75F4176D5E0C26B230F /* Pods-Peinados Para Niñas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peinados Para Niñas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Peinados Para Niñas/Pods-Peinados Para Niñas.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3B2EFAD51B31DCFB3F9E31 /* Pods-Peinados Para Niñas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peinados Para Niñas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Peinados Para Niñas/Pods-Peinados Para Niñas.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A5BFC5D7CB6F49C0165956 /* Pods_Peinados_Para_Nin_as.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				0D2E084A1FED97A90027491D /* PeinadosParaNiñasTests */,
 				0D2E08551FED97A90027491D /* PeinadosParaNiñasUITests */,
 				0D2E08311FED97A90027491D /* Products */,
+				177994A5C5E091E7BE49AF1C /* Pods */,
+				FD189EE4EC1DEB68E85A716F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +126,20 @@
 			children = (
 				0D2E08331FED97A90027491D /* AppDelegate.swift */,
 				0D2E08351FED97A90027491D /* ViewController.swift */,
+				0DA6E05D1FF2F6020071A27F /* ViewControllerLogin.swift */,
+				0D1B6C261FF9920D00F64D21 /* ViewControllerHome.swift */,
 				0D2E08371FED97A90027491D /* Main.storyboard */,
+				0D8248801FFE7C3700633849 /* CategoriasTableViewCell.swift */,
+				0D82487A1FFE722200633849 /* CategoriaTableViewController.swift */,
+				0DC6EABE1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift */,
 				0D5860AC1FEF0C2900416EFD /* Peinado.swift */,
+				0D82487E1FFE758B00633849 /* CategoriasPeinados.swift */,
 				0D2E083D1FED97A90027491D /* Assets.xcassets */,
 				0D2E083F1FED97A90027491D /* LaunchScreen.storyboard */,
 				0D2E08421FED97A90027491D /* Info.plist */,
 				0D2E083A1FED97A90027491D /* PeinadosParaNin_as.xcdatamodeld */,
+				0DC9B6781FF2E581002FA593 /* GoogleService-Info.plist */,
+				0DA6E05F1FF3584C0071A27F /* Peinados.swift */,
 			);
 			path = "PeinadosParaNiñas";
 			sourceTree = "<group>";
@@ -131,6 +162,23 @@
 			path = "PeinadosParaNiñasUITests";
 			sourceTree = "<group>";
 		};
+		177994A5C5E091E7BE49AF1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				878AF75F4176D5E0C26B230F /* Pods-Peinados Para Niñas.debug.xcconfig */,
+				CD3B2EFAD51B31DCFB3F9E31 /* Pods-Peinados Para Niñas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD189EE4EC1DEB68E85A716F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A34BA3881150A385F146C76 /* Pods_Peinados_Para_Nin_as.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D2E085B1FED97A90027491D /* Build configuration list for PBXNativeTarget "Peinados Para Niñas" */;
 			buildPhases = (
+				6267202B642FE675B6C28033 /* [CP] Check Pods Manifest.lock */,
 				0D2E082C1FED97A90027491D /* Sources */,
 				0D2E082D1FED97A90027491D /* Frameworks */,
 				0D2E082E1FED97A90027491D /* Resources */,
+				94813EDC05280FBB5CB7ABDF /* [CP] Embed Pods Frameworks */,
+				C796480E7A65E2D11A4888DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D2E08411FED97A90027491D /* LaunchScreen.storyboard in Resources */,
+				0DC9B6791FF2E581002FA593 /* GoogleService-Info.plist in Resources */,
 				0D2E083E1FED97A90027491D /* Assets.xcassets in Resources */,
 				0D2E08391FED97A90027491D /* Main.storyboard in Resources */,
 			);
@@ -260,14 +312,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6267202B642FE675B6C28033 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Peinados Para Niñas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94813EDC05280FBB5CB7ABDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Peinados Para Niñas/Pods-Peinados Para Niñas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peinados Para Niñas/Pods-Peinados Para Niñas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C796480E7A65E2D11A4888DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peinados Para Niñas/Pods-Peinados Para Niñas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D2E082C1FED97A90027491D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D82487F1FFE758B00633849 /* CategoriasPeinados.swift in Sources */,
+				0DA6E0601FF3584C0071A27F /* Peinados.swift in Sources */,
+				0DA6E05E1FF2F6020071A27F /* ViewControllerLogin.swift in Sources */,
+				0D8248811FFE7C3700633849 /* CategoriasTableViewCell.swift in Sources */,
 				0D5860AD1FEF0C2900416EFD /* Peinado.swift in Sources */,
+				0D1B6C271FF9920D00F64D21 /* ViewControllerHome.swift in Sources */,
 				0D2E08361FED97A90027491D /* ViewController.swift in Sources */,
+				0DC6EABF1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift in Sources */,
 				0D2E08341FED97A90027491D /* AppDelegate.swift in Sources */,
+				0D82487B1FFE722200633849 /* CategoriaTableViewController.swift in Sources */,
 				0D2E083C1FED97A90027491D /* PeinadosParaNin_as.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +555,7 @@
 		};
 		0D2E085C1FED97A90027491D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878AF75F4176D5E0C26B230F /* Pods-Peinados Para Niñas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +571,7 @@
 		};
 		0D2E085D1FED97A90027491D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3B2EFAD51B31DCFB3F9E31 /* Pods-Peinados Para Niñas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

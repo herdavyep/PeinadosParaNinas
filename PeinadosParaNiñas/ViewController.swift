@@ -5,8 +5,11 @@
 //  Created by Heriberto David Yepes on 22/12/17.
 //  Copyright © 2017 Heriberto David Yepes. All rights reserved.
 //
-
+/*
 import UIKit
+import Firebase
+import FirebaseDatabase
+import SDWebImage
 
 class ViewController: UIViewController {
    // @IBOutlet var nombrePeinado: UILabel!
@@ -14,24 +17,37 @@ class ViewController: UIViewController {
     
     @IBOutlet var titulo: UINavigationItem!
     
-    var mySalon : [Peinado] = []
+    var mySalon: [Peinado]=[]
     var miPeinado : Peinado!
     var tutorialUrl:String!
     
     var peinadoID : Int = 0
+    var dbReferencia:DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        miPeinado = Peinado(nombre:"Trenza pull through con ligas", color:#colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1),url:"https://www.youtube.com/watch?v=aW06etR_vJg&list=PLaksGd2ZsbMViAXiAGNzlrGBRZLQZ4jly", image:#imageLiteral(resourceName: "trenza pull through con ligas"))
+       /* miPeinado = Peinado(nombre:"Trenza pull through con ligas",url:"https://www.youtube.com/watch?v=aW06etR_vJg&list=PLaksGd2ZsbMViAXiAGNzlrGBRZLQZ4jly", image:#imageLiteral(resourceName: "trenza pull through con ligas"))
         mySalon.append(miPeinado)
-        miPeinado = Peinado(nombre:"cruz",color:#colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1),url:"https://translate.google.com/#en/es/%2FUsers%2Fheriberto%2FDocuments%2FPeinadosParaNin%CC%83as%2FPeinadosParaNin%CC%83as%2FViewController.swift%3A29%3A28%3A%20Incorrect%20argument%20label%20in%20call%20(have%20'nombre%3Acolor%3Aimagen%3A'%2C%20expected%20'nombre%3Acolor%3Aimage%3A')%0Aany%0A%0Acould%20not%20insert%20new%20outlet", image:#imageLiteral(resourceName: "pn3"))
+        miPeinado = Peinado(nombre:"cruz",url:"https://translate.google.com/#en/es/%2FUsers%2Fheriberto%2FDocuments%2FPeinadosParaNin%CC%83as%2FPeinadosParaNin%CC%83as%2FViewController.swift%3A29%3A28%3A%20Incorrect%20argument%20label%20in%20call%20(have%20'nombre%3Acolor%3Aimagen%3A'%2C%20expected%20'nombre%3Acolor%3Aimage%3A')%0Aany%0A%0Acould%20not%20insert%20new%20outlet", image:#imageLiteral(resourceName: "pn3"))
         mySalon.append(miPeinado)
-        miPeinado = Peinado(nombre:"Trenza de medio lado",color:#colorLiteral(red: 0.9568627477, green: 0.6588235497, blue: 0.5450980663, alpha: 1),url:"https://www.udemy.com/swift-3-ios-10/learn/v4/t/lecture/5467070?start=0", image:#imageLiteral(resourceName: "trensas de medio lado"))
+        miPeinado = Peinado(nombre:"Trenza de medio lado",url:"https://www.udemy.com/swift-3-ios-10/learn/v4/t/lecture/5467070?start=0", image:#imageLiteral(resourceName: "trensas de medio lado"))
         mySalon.append(miPeinado)
-        miPeinado = Peinado(nombre:"desconectado",color:#colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1),url:"https://developer.apple.com/documentation/", image:#imageLiteral(resourceName: "pn4"))
+        miPeinado = Peinado(nombre:"desconectado",url:"https://developer.apple.com/documentation/", image:#imageLiteral(resourceName: "pn4"))
         mySalon.append(miPeinado)
+        
+        */
+       /* dbReferencia=Database.database().reference().child("peinados")
+        dbReferencia.observe(DataEventType.value, with: {(snapshot) in
+            var nuevoPeinado:[Peinados]=[]
+            for peinadosSnapshot in snapshot.children{
+                let peinadoObjeto = Peinados(snapshot:peinadosSnapshot as! DataSnapshot)
+                nuevoPeinado.append(peinadoObjeto)
+            }
+            self.mySalon = nuevoPeinado
+            
+            })*/
+       
         
         peinadoID = 0
 
@@ -47,9 +63,10 @@ class ViewController: UIViewController {
     }
     func actualizarVista() {
         
-        miPeinado = mySalon[peinadoID]
+            miPeinado = mySalon [peinadoID]
+
         
-        UIView.animate(withDuration: 0.5, delay: 0.25, options: [.curveLinear,.allowUserInteraction], animations: {
+            UIView.animate(withDuration: 0.5, delay: 0.25, options: [.curveLinear,.allowUserInteraction], animations: {
             
             if self.miPeinado.image != nil{
                 self.imagenPeinado.image = self.miPeinado.image
@@ -62,7 +79,7 @@ class ViewController: UIViewController {
             self.titulo.title = self.miPeinado.nombre
 
             
-            self.view.backgroundColor = self.miPeinado.color
+            //self.view.backgroundColor = self.miPeinado.color
             
         }) { (completar) in
             print("gracias")
@@ -84,6 +101,8 @@ class ViewController: UIViewController {
     }
     
     
+    
+    
     @IBAction func irTutorial(_ sender: UIButton) {
         
         if let websiteURL = URL(string: self.tutorialUrl ) {
@@ -100,7 +119,7 @@ class ViewController: UIViewController {
 
 
 
-
+*/
 
 
 

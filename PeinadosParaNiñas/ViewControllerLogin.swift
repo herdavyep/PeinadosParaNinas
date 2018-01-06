@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewControllerLogin: UIViewController {
+    
+    @IBOutlet var correo: UITextField!
+
+    @IBOutlet var clave: UITextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +26,25 @@ class ViewControllerLogin: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+   
+    
+    
+    @IBAction func registro(_ sender: UIButton) {
+        Auth.auth().createUser (withEmail: correo.text!, password: clave.text!, completion: {
+            user, error in
+            
+            if error != nil {
+                print("")
+            } else {
+                print ("Usuario creado")
+                
+            }
+            
+        })
+        
+    }
+    
     
 
     /*
