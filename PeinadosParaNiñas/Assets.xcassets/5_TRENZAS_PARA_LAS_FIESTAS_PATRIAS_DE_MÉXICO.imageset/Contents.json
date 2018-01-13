@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "5_TRENZAS_PARA_LAS_FIESTAS_PATRIAS_DE_MÉXICO.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "5_TRENZAS_PARA_LAS_FIESTAS_PATRIAS_DE_MÉXICO@2x.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "5_TRENZAS_PARA_LAS_FIESTAS_PATRIAS_DE_MÉXICO@3x.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

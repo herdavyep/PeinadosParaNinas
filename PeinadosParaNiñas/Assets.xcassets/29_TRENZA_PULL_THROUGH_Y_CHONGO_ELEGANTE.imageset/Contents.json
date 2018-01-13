@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "29_TRENZA_PULL_THROUGH_Y_CHONGO_ELEGANTE.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "29_TRENZA_PULL_THROUGH_Y_CHONGO_ELEGANTE@2x.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "29_TRENZA_PULL_THROUGH_Y_CHONGO_ELEGANTE@3x.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

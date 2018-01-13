@@ -10,19 +10,23 @@ import UIKit
 import GoogleMobileAds
 
 class CategoriaTableViewController: UITableViewController {
-
+    
+    
+    
     var categorias:CategoriasPeinados!
     var FullCategorias:[CategoriasPeinados]=[]
     var bannerView: GADBannerView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 
-        categorias = CategoriasPeinados(nombre: "Peinados para niñas con trenzas", image:#imageLiteral(resourceName: "pn4"), categoria: 1)
+        categorias = CategoriasPeinados(nombre: "Peinados para niñas con trenzas", image:#imageLiteral(resourceName: "24_TRENZAS_HOLANDESAS_CON_LIGAS"), categoria: 1)
         FullCategorias.append(categorias)
-        categorias = CategoriasPeinados(nombre:"Peinados para niñas con ligas" , image: #imageLiteral(resourceName: "pn1"), categoria: 2)
+        categorias = CategoriasPeinados(nombre:"Peinados para niñas con ligas" , image: #imageLiteral(resourceName: "3_TRENZA_PULL_THROUGH_CON_LIGAS"), categoria: 2)
         FullCategorias.append(categorias)
-        categorias = CategoriasPeinados(nombre: "Peinados para niñas faciles y rapidos de hacer", image: #imageLiteral(resourceName: "pn2"), categoria: 3)
+        categorias = CategoriasPeinados(nombre: "Peinados para niñas faciles y rapidos de hacer", image: #imageLiteral(resourceName: "26_TRENZA_GUSANO_DE_4_CABOS"), categoria: 3)
         FullCategorias.append(categorias)
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
@@ -56,6 +60,9 @@ class CategoriaTableViewController: UITableViewController {
                                 constant: 0)
             ])
     }
+    
+   
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

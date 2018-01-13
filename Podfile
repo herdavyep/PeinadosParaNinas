@@ -5,12 +5,6 @@
   use_frameworks!
 
 target 'Peinados Para Niñas' do
-    pod 'Firebase'
-    pod 'Firebase/Auth'
-    pod 'Firebase/Core'
-    pod 'Firebase/Database'
-    pod 'SDWebImage/WebP'
-    pod 'SDWebImage'
     pod 'Google-Mobile-Ads-SDK'
 
 end

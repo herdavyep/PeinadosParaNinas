@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0D1B6C271FF9920D00F64D21 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B6C261FF9920D00F64D21 /* ViewControllerHome.swift */; };
 		0D2E08341FED97A90027491D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E08331FED97A90027491D /* AppDelegate.swift */; };
-		0D2E08361FED97A90027491D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E08351FED97A90027491D /* ViewController.swift */; };
 		0D2E08391FED97A90027491D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2E08371FED97A90027491D /* Main.storyboard */; };
 		0D2E083C1FED97A90027491D /* PeinadosParaNin_as.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D2E083A1FED97A90027491D /* PeinadosParaNin_as.xcdatamodeld */; };
 		0D2E083E1FED97A90027491D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2E083D1FED97A90027491D /* Assets.xcassets */; };
@@ -20,8 +19,6 @@
 		0D82487B1FFE722200633849 /* CategoriaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82487A1FFE722200633849 /* CategoriaTableViewController.swift */; };
 		0D82487F1FFE758B00633849 /* CategoriasPeinados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D82487E1FFE758B00633849 /* CategoriasPeinados.swift */; };
 		0D8248811FFE7C3700633849 /* CategoriasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8248801FFE7C3700633849 /* CategoriasTableViewCell.swift */; };
-		0DA6E05E1FF2F6020071A27F /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6E05D1FF2F6020071A27F /* ViewControllerLogin.swift */; };
-		0DA6E0601FF3584C0071A27F /* Peinados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA6E05F1FF3584C0071A27F /* Peinados.swift */; };
 		0DC6EABF1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6EABE1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift */; };
 		0DC9B6791FF2E581002FA593 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9B6781FF2E581002FA593 /* GoogleService-Info.plist */; };
 		32A5BFC5D7CB6F49C0165956 /* Pods_Peinados_Para_Nin_as.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A34BA3881150A385F146C76 /* Pods_Peinados_Para_Nin_as.framework */; };
@@ -48,7 +45,6 @@
 		0D1B6C261FF9920D00F64D21 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
 		0D2E08301FED97A90027491D /* Peinados Para Niñas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peinados Para Niñas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2E08331FED97A90027491D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D2E08351FED97A90027491D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D2E08381FED97A90027491D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D2E083B1FED97A90027491D /* PeinadosParaNin_as.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeinadosParaNin_as.xcdatamodel; sourceTree = "<group>"; };
 		0D2E083D1FED97A90027491D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,8 +60,6 @@
 		0D82487A1FFE722200633849 /* CategoriaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaTableViewController.swift; sourceTree = "<group>"; };
 		0D82487E1FFE758B00633849 /* CategoriasPeinados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasPeinados.swift; sourceTree = "<group>"; };
 		0D8248801FFE7C3700633849 /* CategoriasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriasTableViewCell.swift; sourceTree = "<group>"; };
-		0DA6E05D1FF2F6020071A27F /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
-		0DA6E05F1FF3584C0071A27F /* Peinados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peinados.swift; sourceTree = "<group>"; };
 		0DC6EABE1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGaleriaVistaTotal.swift; sourceTree = "<group>"; };
 		0DC9B6781FF2E581002FA593 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1A34BA3881150A385F146C76 /* Pods_Peinados_Para_Nin_as.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peinados_Para_Nin_as.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,21 +119,18 @@
 			isa = PBXGroup;
 			children = (
 				0D2E08331FED97A90027491D /* AppDelegate.swift */,
-				0D2E08351FED97A90027491D /* ViewController.swift */,
-				0DA6E05D1FF2F6020071A27F /* ViewControllerLogin.swift */,
+				0D82487E1FFE758B00633849 /* CategoriasPeinados.swift */,
 				0D1B6C261FF9920D00F64D21 /* ViewControllerHome.swift */,
 				0D2E08371FED97A90027491D /* Main.storyboard */,
 				0D8248801FFE7C3700633849 /* CategoriasTableViewCell.swift */,
 				0D82487A1FFE722200633849 /* CategoriaTableViewController.swift */,
 				0DC6EABE1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift */,
 				0D5860AC1FEF0C2900416EFD /* Peinado.swift */,
-				0D82487E1FFE758B00633849 /* CategoriasPeinados.swift */,
 				0D2E083D1FED97A90027491D /* Assets.xcassets */,
 				0D2E083F1FED97A90027491D /* LaunchScreen.storyboard */,
 				0D2E08421FED97A90027491D /* Info.plist */,
 				0D2E083A1FED97A90027491D /* PeinadosParaNin_as.xcdatamodeld */,
 				0DC9B6781FF2E581002FA593 /* GoogleService-Info.plist */,
-				0DA6E05F1FF3584C0071A27F /* Peinados.swift */,
 			);
 			path = "PeinadosParaNiñas";
 			sourceTree = "<group>";
@@ -340,18 +331,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Peinados Para Niñas/Pods-Peinados Para Niñas-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,12 +369,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D82487F1FFE758B00633849 /* CategoriasPeinados.swift in Sources */,
-				0DA6E0601FF3584C0071A27F /* Peinados.swift in Sources */,
-				0DA6E05E1FF2F6020071A27F /* ViewControllerLogin.swift in Sources */,
 				0D8248811FFE7C3700633849 /* CategoriasTableViewCell.swift in Sources */,
 				0D5860AD1FEF0C2900416EFD /* Peinado.swift in Sources */,
 				0D1B6C271FF9920D00F64D21 /* ViewControllerHome.swift in Sources */,
-				0D2E08361FED97A90027491D /* ViewController.swift in Sources */,
 				0DC6EABF1FF725FF009C62F9 /* ViewControllerGaleriaVistaTotal.swift in Sources */,
 				0D2E08341FED97A90027491D /* AppDelegate.swift in Sources */,
 				0D82487B1FFE722200633849 /* CategoriaTableViewController.swift in Sources */,

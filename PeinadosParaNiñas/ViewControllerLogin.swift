@@ -27,9 +27,6 @@ class ViewControllerLogin: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-   
-    
-    
     @IBAction func registro(_ sender: UIButton) {
         Auth.auth().createUser (withEmail: correo.text!, password: clave.text!, completion: {
             user, error in

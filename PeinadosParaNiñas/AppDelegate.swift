@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreData
-import Firebase
 import GoogleMobileAds
 
 
@@ -21,9 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         sleep(2)
-        FirebaseApp.configure()
         GADMobileAds.configure(withApplicationID: "YOUR_ADMOB_APP_ID")
 
+        UINavigationBar.appearance().tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        
+        if let fuenteBarraNavegacion = UIFont(name: "Avenir-Medium", size: 17.0){
+            
+            UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.black , NSAttributedStringKey.font: fuenteBarraNavegacion]
+        }
         return true
     }
 

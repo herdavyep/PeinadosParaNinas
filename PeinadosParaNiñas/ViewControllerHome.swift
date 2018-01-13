@@ -11,6 +11,9 @@ import UIKit
 
 class ViewControllerHome: UIViewController {
    // var interstitial: GADInterstitial!
+    
+    @IBOutlet var botonIrGaleria: UIButton!
+    
 
 
     override func viewDidLoad() {
@@ -28,14 +31,12 @@ class ViewControllerHome: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-   /* @IBAction func VerGaleria(_ sender: UIButton) {
+    @IBAction func VerGaleria(_ sender: UIButton) {
         
-        if interstitial.isReady {
-            interstitial.present(fromRootViewController: self)
-        } else {
-            print("Ad wasn't ready")
-        }
+       botonIrGaleria.setImage(#imageLiteral(resourceName: "boton_2"), for: UIControlState.highlighted)
+        
     }
+    /*
      
      func createAndLoadInterstitial() -> GADInterstitial {
      let interstitial = GADInterstitial(adUnitID: "ca-app-pub-3940256099942544/4411468910")

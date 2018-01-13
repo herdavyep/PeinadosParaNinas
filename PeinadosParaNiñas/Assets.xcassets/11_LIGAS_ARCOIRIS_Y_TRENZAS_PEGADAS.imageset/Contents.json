@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "11_LIGAS_ARCOIRIS_Y_TRENZAS_PEGADAS.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "11_LIGAS_ARCOIRIS_Y_TRENZAS_PEGADAS@2x.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "11_LIGAS_ARCOIRIS_Y_TRENZAS_PEGADAS@3x.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
